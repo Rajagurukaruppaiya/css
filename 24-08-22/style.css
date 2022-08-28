@@ -1,0 +1,193 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color:#454545;
+    height: 10vh; 
+    color: white;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 150px;
+}
+.header li{
+   padding-left: 70px;
+}
+.header input{
+    border-radius: 10px;
+}
+.one{
+    background-color: darkblue;
+    height: 100vh;
+    color: white;
+    margin-top: -70px;
+}
+.one ul{
+    list-style-type: none ;
+}
+
+.one li{
+    padding: 2vh;
+}
+.two{
+    line-height: 10px;
+}
+.two button{
+  padding: 10px;
+  width: 150px;
+  color: white;
+  background-color: #884EA0;
+  border-color: #884EA0;
+  border-radius: 7px;
+
+}
+.two h1{
+
+    font-size: 35px;
+}
+.three{
+    background-color: #8E44AD ;
+    padding: 15px;
+    height: 89vh;
+    color: white;
+}
+.three ul{
+    list-style-type: none ;
+   
+}
+
+.three ul li{
+    padding: 2vh;
+   
+}
+.two_one{
+    margin-top: 50px;
+    height: 54vh;
+    width: 10vw;
+   padding-bottom: 180px;
+   text-align: center;
+}
+.two_one h2{
+    margin-top: 5vh;
+   
+}
+.two_one button{
+    padding: 5px;
+    margin-top: 50px;
+    border: 1px solid #884EA0 ;
+    border-radius: 4px;
+    background-color: #884EA0 ;
+    color: white;
+    margin-top: 30px;
+    width: 20vh;
+}
+
+.two_two{
+    margin-top: 50px;
+    height: 54vh;
+    width: 10vw;
+    text-align: center;
+}
+
+.two_two h2{
+    margin-top: 5vh;
+   
+}
+.two_two button{
+    padding: 5px;
+    margin-top: 50px;
+    border: 1px solid #884EA0 ;
+    border-radius: 4px;
+    background-color: #884EA0 ;
+    color: white;
+    margin-top: 30px;
+    width: 20vh;
+}
+
+
+.two_three{
+    margin-top: 50px;
+    height: 54vh;
+    width: 10vw;
+    text-align: center;
+}
+
+.two_three h2{
+    margin-top: 5vh;
+   
+}
+.two_three button{
+    padding: 5px;
+    margin-top: 50px;
+    border: 1px solid #884EA0 ;
+    border-radius: 4px;
+    background-color: #884EA0 ;
+    color: white;
+    margin-top: 30px;
+    width: 20vh;
+}
+
+
+
+.two_four{
+   margin-top: 9px;
+    height: 54vh;
+    width: 10vw;
+    text-align: center;
+}
+
+.two_four h2{
+    margin-top: 5vh;
+   
+}
+.two_four button{
+    padding: 5px;
+    margin-top: 50px;
+    border: 1px solid #884EA0 ;
+    border-radius: 4px;
+    background-color: #884EA0 ;
+    color: white;
+    margin-top: 30px;
+    width: 20vh;
+}
+i{
+    margin-right: 10px;
+    margin-left: -50px;
+}
+.icon{
+    margin-left: 150px;
+}
+
+.download{
+    margin-left: 100px;
+}
+[class *="col-"]{
+    float: left;
+    padding: 10px;
+}
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+@media only screen and(max-width:768px){
+    [class*="col-"]{
+        width: 100%;
+        position: absolute;
+    }
+}

@@ -1,0 +1,82 @@
+.img{
+    background-image: url('https://wallpaperaccess.com/full/1124115.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    color: wheat;
+    margin-left: -10px;
+   
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+    color: white;
+    font-size: 40px;
+    margin-left: 45px;
+    margin-bottom: 100px;
+    padding-top: 140px;
+    
+  
+   
+}
+
+.para1{
+    color: wheat;
+    font-size:25px ;
+ margin-left: 45px;
+ margin-top: -100px;
+
+}
+.para3{
+    margin-left: -40px;
+}
+
+
+
+.list1{
+    float: right;
+}
+
+.list{
+    float: right;
+}
+
+.para4{
+ padding: 10px;
+}
+
+form input{
+    padding: 16px;
+    font-size: 15px;
+}
+
+button{
+    padding: 16px;
+    border-radius: 5px;
+    border-color: orangered;
+    color: white;
+    background-color: orangered;
+}
+
+.para5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.table table tr th img{
+  width: 315px;
+  height: 315px;
+  margin-top: 150px;
+border-style: inherit;
+  border-color:orangered;
+ 
+}

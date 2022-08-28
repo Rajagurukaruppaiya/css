@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parent-div{
+    display: grid;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #ffff;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 1.5fr 1.5fr 2fr; 
+    grid-gap: 0.1rem;
+    grid-template-areas: 
+    'Header Menu Menu'
+    'Hero Hero Hero'
+    'Main Empty Image'
+    'Main Empty Extra'
+    'Banner Banner Banner';
+}
+
+.parent-div > div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header{
+    background-color: #0f1629;
+    grid-area: Header;
+}
+.Menu{
+    background-color: #ef3c4f;
+    grid-area: Menu;
+}
+.Hero{
+    background-color: #4c86c6;
+    grid-area: Hero;
+}
+.Empty{
+    background-color: white;
+    grid-area: Empty;
+}
+.Main{
+    background-color: #24344a;
+    grid-area:Main;
+}
+.Image{
+    background-color: #c1e5e5;
+    grid-area:Image;
+}
+.Extra{
+    background-color: #4dbd97;
+    grid-area:Extra;
+}
+.Banner{
+    background-color: #fed169;
+    grid-area:Banner;
+}
+
+@media only screen and (max-width:768px){
+    .parent-div{
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-rows: 1fr 2fr 2fr 1.5fr 1fr; 
+        grid-gap: 0.1rem;
+        grid-template-areas: 
+        'Header Header Header'
+        'Hero Hero Hero'
+        'Menu Main Main'
+        'Menu Banner Banner'
+        'Menu Extra Image';
+    }
+}
+@media only screen and (max-width:425px){
+    .parent-div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr 1fr 1fr 1fr; 
+        grid-gap: 0.1rem;
+        grid-template-areas: 
+        'Header'
+        'Menu'
+        'Hero'
+        'Main'
+        'Banner'
+        'Extra' 
+        'Image';
+    }
+}
